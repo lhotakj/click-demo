@@ -1,3 +1,4 @@
+# colors https://misc.flogisoft.com/bash/tip_colors_and_formatting
 import click
 
 
@@ -44,5 +45,6 @@ def terminate(instance_id: str):
 def cli(debug):
     pass
 
+
 if __name__ == '__main__':
-   cli()
+    cli()
