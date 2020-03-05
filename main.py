@@ -42,8 +42,8 @@ def default_options(fn):
               type=str,
               metavar="\033[32m<instance-id>\033[0m")
 @default_options
-def create(precept: str, instance_type: str, force_recreate: bool, name: str, wait: bool, verbose: bool, quiet: bool, dryrun: bool):
-    print(f'creating new instance with name:{name} according precept:{precept}, instance-type:{instance_type}, wait:{wait}, verbose:{verbose}, quiet:{quiet}, dryrun:{dryrun}')
+def create(precept: str, type: str, force_recreate: bool, name: str, wait: bool, verbose: bool, quiet: bool, dryrun: bool):
+    print(f'creating new instance with name:{name} according precept:{precept}, instance-type:{type}, wait:{wait}, verbose:{verbose}, quiet:{quiet}, dryrun:{dryrun}')
 
 
 @click.group()
